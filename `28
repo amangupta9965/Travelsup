@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Travels Up : +91-9555164589</title>
+<script>
+var isNS = (navigator.appName == "Netscape") ? 1 : 0;
+
+if(navigator.appName == "Netscape") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);
+
+function mischandler(){
+return false;
+}
+
+function mousehandler(e){
+var myevent = (isNS) ? e : event;
+var eventbutton = (isNS) ? myevent.which : myevent.button;
+if((eventbutton==2)||(eventbutton==3)) return false;
+}
+document.oncontextmenu = mischandler;
+document.onmousedown = mousehandler;
+document.onmouseup = mousehandler;
+
+</script>
+</head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("9143_MacBook-Pro-Apple-laptop-wallpaper.jpg");
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-blue w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide w3-red w3-hover-red"><b><i class="fa fa-plane"></i>Travels</b> Up `28<i class="w3-animate-left fa fa-registered"></i></a>
+	<a href="amanwork.html" class="w3-bar-item w3-button w3-hover-green"><i class="fa fa-vcard"></i><b> CEO</a>
+	<a href="amansharmawork.html" class="w3-bar-item w3-button w3-hover-green"><i class="fa fa-vcard-o"></i> PARTNERS</b></a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+	<a href="customerdata.html" class="w3-bar-item w3-button w3-hover-yellow"><i class="fa fa-group"></i><i> CUSTOMER LOGIN</a>
+	<a href="adminlogin.html" class="w3-bar-item w3-button w3-hover-yellow"><i class="fa fa-sign-in"></i> ADMIN LOGIN</a>
+      
+      
+      <a href="#contact" class="w3-bar-item w3-button w3-red w3-hover-red"><i class="fa fa-map-marker"></i><b> CONTACT</i></b></a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>+
+  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
+  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+   <div class="w3-animate-zoom"><span class="w3-jumbo w3-hide-small"><b>Welcome To Travels Up<i class="fa fa-heartbeat"></i></b></span></div><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium">Welcome To Travels Up </span><br>
+    <span class="w3-large"><i><b>`28 ~ Right Concepts For Traveling The World. </i></b></span><br>
+	<span class="w3-large"><u>Note : Click on the below button to open website.</u></span>
+    <div class="w3-animate-zoom"><p><a href="new 12 trying.html" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-hover-blue"><i class="fa fa-taxi"></i> ENTER <b>HOME</b></a></p></div>
+  </div> 
+  <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+	<i class="fa fa-trademark"></i>
+  </div>
+</header>
+
+
+<!-- Promo Section - "We know design" -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3><b>We know design.</b></h3>
+      <p>To enjoy good health, to bring true happiness to one's family, to bring peace to all,<br>one must first discipline and control one's own mind.</p>
+      <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th"> </i> View Our Works</a></p>
+    </div>
+    <div class="w3-col m6">
+      <img class="w3-image w3-round-large" src="VoF.gif" alt="Buildings" width="550" height="100">
+    </div>
+  </div>
+</div>
+
+<!-- Team Section -->
+<div class="w3-container" style="padding:128px 16px" id="team">
+  <h3 class="w3-center">THE TEAM</h3>
+  <p class="w3-center w3-large">The ones who runs this company</p>
+  <div class="w3-row-padding" style="margin-top:64px">
+   <body>
+<center>
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="IMG_20190219_165216_046.jpg" alt="John" style="width:100%" height="300">
+      <h3>Mr. Aman Gupta</h3>
+      <p class="w3-opacity">CEO & Founder</p>
+      <p>Software Engineer, 161070800006</p>
+      <p><button class="w3-button w3-light-grey w3-block w3-hover-red" onclick="alert('Contact No : +91-9555164589')">Contact</button></p>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="IMG-20180417-WA0018.jpg" alt="Jane" style="width:100%" height="300">
+      <h3>Mr. Aman Sharma</h3>
+      <p class="w3-opacity">Manager</p>
+      <p>CSE Dept. , 161070800009</p>
+      <p><button class="w3-button w3-light-grey w3-block w3-hover-red" onclick="alert('Contact No : +91-7011796440')">Contact</button></p>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="pmlogo.jpeg" alt="Mike" style="width:100%" height="300">
+      <h3>P.M. POLYTECHNIC</h3>
+      <p class="w3-opacity">HEAD OFFICE</p>
+      <p>Engineering College in Haryana.</p>
+      <p><button class="w3-button w3-light-grey w3-block w3-hover-red" onclick="alert('Contact No : 0130 220 3500')">Contact</button></p>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="map.jpg" alt="Dan" style="width:100%" height="300">
+      <h3>Branch - Delhi</h3>
+      <p class="w3-opacity">Location / Map</p>
+      <p>Travel Ageny In Delhi.</p>
+      <p><button class="w3-button w3-light-grey w3-block w3-hover-red" onclick="alert('Contact No : +69-9555164589')">Contact</button></p>
+    </div>
+  </div>
+  </center>
+  </body>
+  </div>
+</div>
+
+<!-- Promo Section "Statistics" -->
+<div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">14+</span>
+    <br>Partners
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">550+</span>
+    <br>Projects Done
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">89000+</span>
+    <br>Happy Clients
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">1700+</span>
+    <br>Meetings
+  </div>
+</div>
+
+<!-- Work Section -->
+<div class="w3-container" style="padding:128px 16px" id="work">
+  <h3 class="w3-center">WE PROVIDES ALL SERVICES LIKE :</h3>
+  <div class="w3-row-padding" style="margin-top:30px">
+    <div class="w3-col l3 m6">
+      <img src="tech_drone.jpg" style="width:100%" height="200" onclick="onClick(this)" class="w3-hover-opacity" alt="On Demand, We provides a Drone (Quad-Copter) for playing or shot live capture.">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="tech_phone.jpg" style="width:100%" height="200" onclick="onClick(this)" class="w3-hover-opacity" alt="On Demand, We provides Postpaid Mobile Phone.">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="bmw_730d-010_0_0.jpg" style="width:100%" height="200" onclick="onClick(this)" class="w3-hover-opacity" alt="Luxury Cars On Rent.">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="luxury-bus.jpg" style="width:100%" height="200" onclick="onClick(this)" class="w3-hover-opacity" alt="Luxury Bus / Coaches On Rent.">
+    </div>
+	<div class="w3-col l3 m6">
+      <img src="ppcopy3.jpg" style="width:100%" height="220" onclick="onClick(this)" class="w3-hover-opacity" alt="All Over World Tours_India Gate.">
+    </div>
+	<div class="w3-col l3 m6">
+      <img src="top10-luxury-hotels-in-bangkok.jpg.jpg" style="width:100%" height="220" onclick="onClick(this)" class="w3-hover-opacity" alt="Bookings Of Luxury Resorts, (Like : Club Mahindra, Taj Hotels, Oborei Hotels).">
+    </div>
+	<div class="w3-col l3 m6">
+      <img src="hotel-palacio-estoril-by-night-best-hotel-suites-in-europe.jpg" style="width:100%" height="220" onclick="onClick(this)" class="w3-hover-opacity" alt="Hotels">
+    </div>
+	<div class="w3-col l3 m6">
+      <img src="1512149000779.png" style="width:100%" height="220" onclick="onClick(this)" class="w3-hover-opacity" alt="Arrangment Of Passport & Visa.">
+    </div>
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+
+<!-- Contact Section -->
+<div class="w3-container w3-light-grey" style="padding:40px 16px" id="contact">
+  <div style="margin-top:10px">
+  <center>
+<body>
+
+<span class="heading"><b>User Rating </b></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<p>4.2 average based on 254005 reviews.</p>
+<br>
+</center>
+</body>
+    <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i><b><span class="w3-text-red w3-xlarge">P.M. GROUP OF INSTITUTUON </span></b> ,  KAMI ROAD, SONEPAT, HARYANA, INDIA</p>
+    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> <b>Phone</b> : +91-9555164589, +91-7011796440</p>
+    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> <b>Email</b> : travelsup28@gmail.com</p>
+    <br>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-white w3-hover-grey"><i class="fa fa-arrow-up w3-margin-right"></i>GO TOP</a>
+  <p>Powered by <a href="amanwork.html" title="W3.CSS" target="_blank" class="w3-hover-text-green">Mr. Aman Gupta</a></p>
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+</body>
+</html>
